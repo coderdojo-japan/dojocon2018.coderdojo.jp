@@ -1,4 +1,6 @@
-## Welcome to GitHub Pages
+## DojoCon Japan 2018
+
+(これから作るよ!!!)
 
 You can use the [editor on GitHub](https://github.com/coderdojo-japan/dojocon2018.coderdojo.jp/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
