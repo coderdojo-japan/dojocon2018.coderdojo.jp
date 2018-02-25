@@ -1,8 +1,7 @@
 
-## DojoCon Japan 2018 今年のテーマ
+## テーマ
 
 ひろがる plus one
-
 
 ## 開催概要
 
