@@ -19,16 +19,15 @@
         <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
       {% endif %}
     </section>
-
     <section class="main-content">
       <div class="entry-content>
-        {{ content }}
-      </div?
-      <h2>News</h2>
-      <div class="container mx-auto px-2 py-4">
-        {% for post in site.posts %}
-            
-<div class="py-2 mb-2 prose">
+                  {{ content }}
+       </div>
+       
+                  <h2>News</h2>
+                  <div class="container mx-auto px-2 py-4">
+                                                          {% for post in site.posts %}
+                                                          <div class="py-2 mb-2 prose">
   <a class="no-underline h5 bold text-accent" title="{{ post.url | prepend: site.baseurl }}" href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d, %Y" }}</a>
   <h2 class="h1 lh-condensed col-9 mt-0">
     <a class="link-primary" title="{{ post.url | prepend: site.baseurl }}" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
