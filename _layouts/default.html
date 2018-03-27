@@ -12,6 +12,7 @@
 </head>
 <body>
 <section class="page-header">
+	<img class="coderdojo-icon" src="{{ '/assets/images/dojo_logo_white.png' | relative_url }}">
 	<h1 class="project-name"><a href="http://dojocon2018.coderdojo.jp/">DojoCon Japan 2018</a></h1>
 	<h2 class="project-tagline">ひろがる plus one</h2>
 </section>
@@ -21,7 +22,7 @@
 	</div>
 	<h2>News</h2>
 	<div class="newscontent">
-	
+
 		{% for post in site.posts %}
 			<div class="py-2 mb-2 prose">
 				<a class="no-underline h5 bold text-accent" title="{{ post.url | prepend: site.baseurl }}"

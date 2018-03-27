@@ -8,6 +8,11 @@
     color: #fff;
 }
 
+.coderdojo-icon {
+  width:128px;
+  text-align:center;
+}
+
 .entry-content h2{
     border-bottom: 1px solid #159957;
 }
