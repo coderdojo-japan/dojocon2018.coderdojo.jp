@@ -16,3 +16,6 @@
 .entry-content h2{
     border-bottom: 1px solid #159957;
 }
+iframe{
+    width: 100%;
+}
