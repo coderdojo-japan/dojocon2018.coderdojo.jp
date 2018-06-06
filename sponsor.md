@@ -1,7 +1,7 @@
 # スポンサーシップのご案内
 
 
-[DojoCon Japan 2018 スポンサーシップのご案内 [PDF]](https://docs.google.com/presentation/d/e/2PACX-1vTi9tgYcWf29lots9oovBMtCODvs7oUJ0Ud2PSTFqLrXtGOLVnEIDlSjRG20SEMYPSTMbe9mblOkvp5/pub?start=false&loop=false&delayms=3000&slide=id.g1dd5633b99_0_171)
+[DojoCon Japan 2018 スポンサーシップのご案内 [スライド]](https://docs.google.com/presentation/d/e/2PACX-1vTi9tgYcWf29lots9oovBMtCODvs7oUJ0Ud2PSTFqLrXtGOLVnEIDlSjRG20SEMYPSTMbe9mblOkvp5/pub?start=false&loop=false&delayms=3000&slide=id.g1dd5633b99_0_171)
 
 私達、DojoCon Japan 実行委員会は、2018年8月25日（土）サイボウズ東京オフィスにて、「DojoCon Japan 2018」を開催いたします。
 
