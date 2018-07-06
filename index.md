@@ -31,3 +31,8 @@ DojoCon Japan 2018
 
 - Twitter : [@DojoConJapan](https://twitter.com/DojoConJapan)
 - Facebook : [DojoCon Japan](https://www.facebook.com/dojoconjapan/)
+
+
+## スポンサーシップのご案内
+
+- [スポンサーシップのご案内はこちらよりご確認いただけます。](http://dojocon2018.coderdojo.jp/sponsor)
