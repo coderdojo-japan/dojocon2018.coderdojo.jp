@@ -3,6 +3,15 @@
 こちらは [DojoCon Japan 2018 Webサイト](https://dojocon2018.coderdojo.jp/) のリポジトリです。
 
 
+## ローカルでのjekyllのサーバ起動について
+
+```
+$ bundle exec jekyll serve
+
+こちらで、http://127.0.0.1:4000/ にアクセスできるようになります。
+```
+
+
 ## CSSのコンパイルについて
 
 - [Bootstrap](https://getbootstrap.com/) を利用しています。
