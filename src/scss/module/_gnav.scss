@@ -1,0 +1,95 @@
+.gnav{
+  @include media-breakpoint-down(md) {
+    margin-top: 0 !important;
+  }
+  &__inner {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+    padding: 30px 0 40px 0;
+    @include media-breakpoint-up(md) {
+      padding: 0;
+      position: static;
+      top: auto;
+      width: auto;
+      z-index: 10;
+    }
+    background-color: #1f4e5f;
+    color: #fff;
+    font-family: $dojocon-font;
+    display: none;
+    @include media-breakpoint-up(md) {
+      display: block;
+    }
+  }
+  &__toggle{
+    z-index: 5;
+    width: 50px;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    @include media-breakpoint-up(md) {
+      display: none;
+    }
+    &-on{
+      display: block;
+    }
+    &-off{
+      display: none;
+    }
+  }
+  &__title{
+    font-weight: normal;
+    margin: 0 0 20px 0;
+    @include media-breakpoint-up(md) {
+      display: none;
+    }
+  }
+  &__menu{
+    padding: 0;
+    margin: 0;
+    li{
+      list-style: none;
+      text-align: center;
+
+      @include media-breakpoint-up(md) {
+        width: 12.5%;
+      }
+      a{
+        color: #fff;
+        display: block;
+        padding: 10px 0;
+        @include media-breakpoint-up(md) {
+          padding: 20px 0;
+        }
+      }
+    }
+  }
+  &__sns{
+    margin-top: 20px;
+    @include media-breakpoint-up(md) {
+      display: none;
+    }
+    i {
+      display: block;
+      height: 35px;
+      width: 35px;
+      border-radius: 50%;
+      background-color: #fff;
+      text-align: center;
+      padding-top: 9px;
+      vertical-align: middle;
+    }
+  }
+
+  @include media-breakpoint-up(md) {
+    .is-fixed {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 2;
+      width: 100%;
+    }
+  }
+}

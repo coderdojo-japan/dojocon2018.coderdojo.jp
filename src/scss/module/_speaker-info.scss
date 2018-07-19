@@ -1,0 +1,17 @@
+.speaker-info{
+  padding-top: 30px;
+  &__name{
+    font-size: $font-size-lg;
+    font-weight: bold;
+  }
+  &__description{
+    font-weight: bold;
+  }
+  &__links{
+    margin: 20px 0;
+    .list-inline-item{
+      font-size: $font-size-base*2;
+      margin: 0 10px;
+    }
+  }
+}

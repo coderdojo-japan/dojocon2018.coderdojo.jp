@@ -1,0 +1,24 @@
+.access{
+  &__detail{
+    color: $dojocon-green;
+    dt{
+      background: url("../img/access-detail-icon.png") no-repeat left top;
+      background-size: 60px;
+      padding: 10px 0 30px 80px;
+      display: block;
+    }
+    dd{
+      display: block;
+      padding: 0 0 0 80px;
+      margin-top: -20px;
+      margin-bottom: 30px;
+    }
+  }
+  &__map{
+    width: 100%;
+    height: 300px;
+    @include media-breakpoint-up(md) {
+      height: 450px;
+    }
+  }
+}

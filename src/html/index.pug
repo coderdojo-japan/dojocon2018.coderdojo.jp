@@ -1,0 +1,169 @@
+- var page_name = "top"
+// ---------------------
+doctype
+html(lang="ja")
+  head
+    include includes/_headmeta
+  body
+    include includes/_header
+    main
+      //section.gnav#gnav
+        .gnav__toggle#gnav__toggle
+          a(href="#")
+            img(src="img/toggle-on.svg").gnav__toggle-on
+        .gnav__inner#gnav__inner
+          h3.gnav__title.text-center DojoCon Japan 2018
+          ul.gnav__menu.d-md-flex.flex-md-row
+            - for (var i = 0; i < 8; i++)
+              li
+                a(href="#") ABOUT
+          ul.gnav__sns.list-inline.text-center.text-md-right.mb-0
+            li.list-inline-item
+              a(href="https://twitter.com/DojoConJapan" target="_blank")
+                i.fab.fa-twitter
+            li.list-inline-item
+              a(href="https://www.facebook.com/dojoconjapan" target="_blank")
+                  i.fab.fa-facebook-f
+      section.about.bg__blue
+        .container
+          .row.justify-content-md-center
+            .col-12.col-md-8
+              h2.heading__01 ABOUT
+              h3.heading__02 日本最大のCoderDojoの祭典
+              p DojoCon Japan は日本の CoderDojo 関係者(見守る大人、学ぶ子供)とその活動に賛同・協賛する人が全国各地から集まる大きなイベントです。 一昨年と昨年は大阪で開催され、イベント開催時 45 箇所だった日本の Dojo が今では約 140 箇所を超えるコミュニティに成長しました。 今回は「ひろがる plus one」をテーマに CoderDojo コミュニティに新しい風を巻き起こし，チャンピオン，メンター，ニンジャに関係なく， プラスワンの発見をすることのできる DojoCon Japan を目標にしています。
+              h3.heading__02 CoderDojo
+              p CoderDojo は 2011 年にアイルランドから始まった子供達にプログラミングを学ぶ場を提供するボランティア主導の世界的な非営利活動です。その数は世界中で 1600 以上(2018 年 7 月現在)にも及びます。
+
+      section.outline.bg__blue.pb-5
+            .container
+              .row.justify-content-md-center
+                .col-12.col-lg-6
+                  h2.heading__01 開催概要
+                  dl.row.justify-content-md-center.outline__detail
+                    dt.col-3
+                      span 開催日
+                    dd.col-9 2018年8月25日（土）
+                    dt.col-3
+                      span 時間
+                    dd.col-9 10:30-18:30（開場10:00）
+                    dt.col-3
+                      span 場所
+                    dd.col-9 サイボウズ東京オフィス
+                    dt.col-3
+                      span 参加費
+                    dd.col-9 無料
+                  p.caution ※参加には事前の申込みが必要です
+                  .text-center.mt-5
+                    a(href="https://dojoconjp2018.peatix.com/" target="_blank" role="button").btn.btn__green.btn__xxl ENTRY
+
+      section.news.bg__green.pb-5
+        .container
+          .row
+            .col-12
+              h2.heading__01 NEWS
+        .container
+          .row.post-list
+            .col-md-6
+              article.post-list__item
+                a(href="https://dojoconjp2018.peatix.com/" target="_blank")
+                  .post-list__thumbnail
+                    img(src="img/dummy-img.png" alt="NEWS記事のイメージ共通画像")
+                  .post-list__content
+                    p.post-list__date 2018.07.14
+                    h3.post-list__title DojoCon Japan2018受付参加受けを開始いたしました。
+            .col-md-6
+              article.post-list__item
+                a(href="/sponsor")
+                  .post-list__thumbnail
+                    img(src="img/dummy-img.png" alt="NEWS記事のイメージ共通画像")
+                  .post-list__content
+                    p.post-list__date 2018.07.14
+                    h3.post-list__title スポンサー募集中
+            .col-md-6
+              article.post-list__item
+                a(href="/contest")
+                  .post-list__thumbnail
+                    img(src="img/goglobal_contest.jpg" alt="go global contestの画像")
+                  .post-list__content
+                    p.post-list__date 2018.07.14
+                    h3.post-list__title コンテンスト募集開始いたしました。
+      section.access.pb-5
+        .container
+          .row
+            .col-12
+              h2.heading__01.bgwh ACCESS
+        .container
+          .row
+            .col-md-6
+              dl.access__detail
+                dt 場所
+                dd サイボウズ東京オフィス
+                dt 所在地
+                dd 〒103-6028<br>東京都中央区日本橋2-7-1 東京日本橋タワー 27階
+                dt 電車でお越しの場合
+                dd 東京メトロ銀座線・東西線、都営地下鉄浅草線「日本橋駅」B6出口直通<br>東京メトロ半蔵門線・銀座線「三越前駅」B6出口より徒歩3分<br>JR：「東京駅」八重洲北口より徒歩10分
+            .col-md-6
+              img(src="img/cybozu.jpg" alt="サイボウズ東京オフィスのイメージ")
+            .col-12.mt-5
+              iframe(src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.793227350243!2d139.77189131579627!3d35.68209303753114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c46de1a941d%3A0x4fe7d8e930a3b4e!2z44K144Kk44Oc44Km44K65qCq5byP5Lya56S-!5e0!3m2!1sja!2sjp!4v1528120258500" frameborder="0" style="border:0" allowfullscreen).access__map
+      section.session.bg__green
+        .container
+          .row
+            .col-12
+          h2.heading__01 SESSION
+          .row.post-list
+            - for (var i = 0; i < 1; i++)
+              .col-6.col-md-3
+                article.post-list__item
+                  a(href="#")
+                    .post-list__thumbnail
+                      img(src="img/hosoya.jpg" alt="セッション登壇者名")
+                    .post-list__content
+                      h3.post-list__title 基調講演
+                      //p.post-list__time
+                      p.post-list__speaker 細谷 崇
+                    .post-list__more
+                      a(href="#" role="button").btn.btn__white.btn__xl more
+      section.workshop.bg__green
+        .container
+          .row.justify-content-md-center
+            .col-12.col-md-8
+              h2.heading__01 WORK SHOP
+              h3.heading__02 COMING SOON
+          .row.post-list.mt-5
+            - for (var i = 0; i < 0; i++)
+              .col-md-4
+                article.post-list__item
+                  a(href="#")
+                    .post-list__thumbnail
+                      img(src="https://dummyimage.com/600x400/000/fff" alt="ワークショップイメージ")
+                    .post-list__content
+                      h3.post-list__title DojoCon Japan2018のサイトが公開しました。
+                      p.post-list__cat
+                        span カテゴリー
+                    .post-list__more
+                      a(href="#" role="button").btn.btn__white.btn__xl more
+      section.sponsor
+          h2.heading__01.bgwh SPONSOR
+          p.text-center.mb-5 現在募集中です<br>
+            a(href="/sponsor.html") 詳しくはこちらをご覧ください。
+          //h3.heading__02
+            span Gold Sponsor
+          //h3.heading__02
+            span Silver Sponsor
+          //h3.heading__02
+            span Bronze Sponsor
+      section.contact.bg__blue.pb-5
+        .container
+          .row
+            .col-12#contact
+              h3.heading__01 CONTACT
+              .text-center
+                p
+                  a(href="mailto:dojocon2018@coderdojo.jp") メールにてお問い合わせください
+                //a(src="#").btn.btn__white.btn__xxl フォームを開く
+            .col-12#coderdojo-foundation
+              h3.heading__01 後援
+              p.text-center CoderDojo Foundation
+    include includes/_footer
+    include includes/_footermeta
