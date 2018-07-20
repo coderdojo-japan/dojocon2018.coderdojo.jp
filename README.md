@@ -6,6 +6,7 @@
 ## ローカルでのjekyllのサーバ起動について
 
 ```
+$ bundle install
 $ bundle exec jekyll serve
 
 こちらで、http://127.0.0.1:4000/ にアクセスできるようになります。
@@ -18,6 +19,7 @@ $ bundle exec jekyll serve
 - コンパイルには [npm script](https://docs.npmjs.com/misc/scripts) を利用しています。以下のコマンドでコンパイルされます。
 
 ```
+$ npm install
 $ npm run build
 
 /src/sass内のstyle.scssがコンパイルされ/cssに保存されます。
