@@ -1,0 +1,26 @@
+.btn{
+  &__xl{
+    font-size: $font-size-lg;
+    border-radius: 30px;
+    padding: 0 40px;
+  }
+  &__xxl{
+    font-size: $font-size-base*2;
+    border-radius: 30px;
+    padding: 5px 40px;
+  }
+  &__green{
+    background-color: $dojocon-green;
+    border-color: $dojocon-green;
+    color: #fff !important;
+    &:hover{
+      background-color: #fff;
+      color: $dojocon-green !important;
+    }
+  }
+  &__white{
+    background-color: #fff;
+    border-color: #fff;
+    color: $dojocon-green !important;
+  }
+}

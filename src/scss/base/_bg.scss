@@ -1,0 +1,16 @@
+.bg {
+  &__blue{
+    background-color: $dojocon-blue;
+    color: #fff;
+    a{
+      color: #fff;
+    }
+  }
+  &__green{
+    background-color: $dojocon-green;
+    color: #fff;
+    a{
+      color: #fff;
+    }
+  }
+}

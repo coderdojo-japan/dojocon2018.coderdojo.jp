@@ -1,0 +1,44 @@
+{
+  "name": "mgn_bootstrap_for_dojocon",
+  "version": "1.0.0",
+  "description": "DojoCon Japan 2018用のCSSコンパイル",
+  "main": "index.js",
+  "scripts": {
+    "compile-pug": "pug --hierarchy -o / src/html/ --pretty",
+    "imagemin-png": "imagemin src/img/*.png --plugin=pngquant -o img",
+    "imagemin-jpg": "imagemin src/img/*.jpg --plugin=jpeg-recompress -o img",
+    "imagemin-gif": "imagemin src/img/*.gif -o img",
+    "imagemin-all": "npm run imagemin-png & npm run imagemin-jpg & npm run imagemin-gif",
+    "build": "npm-run-all css-compile css-prefix css-minify imagemin-all",
+    "css-compile": "node-sass --importer node_modules/node-sass-globbing/index.js --output-style expanded --source-map true --source-map-contents true --precision 6 src/scss/style.scss css/style.css",
+    "css-prefix": "postcss --config src/postcss.config.js --replace css/*.css",
+    "css-minify": "cleancss --level 1 --source-map --source-map-inline-sources --output css/style.min.css css/style.css",
+    "serve": "browser-sync start --server --baseDir / --serveStatic / --files 'css/*.css, js/*.js, *.html'",
+    "watch": "npm run serve & watch 'npm run css-compile & npm run compile-pug' ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/{まだURLはないよ！}"
+  },
+  "author": "megane9988",
+  "license": "GLP",
+  "homepage": "https://www.m-g-n.me",
+  "dependencies": {
+    "autoprefixer": "^9.0.0",
+    "bootstrap": "^4.1.0",
+    "browser-sync": "^2.24.4",
+    "clean-css-cli": "^4.1.10",
+    "imagemin-cli": "^3.0.0",
+    "imagemin-jpeg-recompress": "^5.1.0",
+    "imagemin-pngquant": "^6.0.0",
+    "jquery": "^3.3.1",
+    "node-sass": "^4.9.0",
+    "node-sass-globbing": "0.0.23",
+    "npm-run-all": "^4.1.2",
+    "popper.js": "^1.14.3",
+    "postcss-cli": "^6.0.0",
+    "pug": "^2.0.3",
+    "pug-cli": "git+https://github.com/pugjs/pug-cli.git#0eb8d37",
+    "watch": "1.0.2"
+  }
+}

@@ -1,0 +1,35 @@
+.post-list{
+  &__thumbnail{
+    margin-bottom: 20px;
+  }
+  &__item{
+    font-size: $font-size-base;
+    margin-bottom: 60px;
+  }
+  &__date{
+    margin-bottom: 5px;
+  }
+  &__title{
+    font-size: $font-size-base;
+  }
+  &__time{
+    margin: 20px 0 0;
+  }
+  &__speaker{
+    margin-bottom: 10px;
+  }
+  &__cat{
+    margin-top: 20px;
+    span{
+      display: inline-block;
+      background: #fff;
+      padding: 5px 20px;
+      border-radius: 10px;
+      color: $dojocon-green;
+    }
+  }
+  &__more{
+    text-align: center;
+    margin-top: 20px;
+  }
+}

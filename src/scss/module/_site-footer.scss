@@ -1,0 +1,29 @@
+.site-footer{
+  padding: 20px 0;
+  &__sns{
+    font-size: $font-size-base*2;
+    i{
+      display: block;
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      background-color: #fff;
+      text-align: center;
+      padding-top: 9px;
+      vertical-align: middle;
+      &.fa-facebook-f{
+        margin-left: 20px;
+      }
+    }
+  }
+  &__text-link{
+    font-size: $font-size-sm;
+    display: block;
+    margin-bottom: 30px;
+    @include media-breakpoint-up(md) {
+      display: inline;
+      margin-bottom: 0;
+      margin-right: 40px !important;
+    }
+  }
+}

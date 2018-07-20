@@ -1,0 +1,18 @@
+.entry__content{
+  h3{
+    @extend .heading__03;
+  }
+  table{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    td,th{
+      border: 1px solid #ccc;
+      padding: 20px;
+    }
+    th{
+      background-color: #eee;
+      vertical-align: top;
+    }
+  }
+}

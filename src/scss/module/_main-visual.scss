@@ -1,0 +1,33 @@
+.main-visual {
+  position: relative;
+  picture {
+    img {
+      width: 100%;
+    }
+  }
+  &__title {
+    font-family: 'Ropa Sans', sans-serif;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+    color: #1f4d5e;
+    top: 50px;
+    @include media-breakpoint-up(md) {
+      font-size: $font-size-base*7;
+      top: 40px;
+    }
+  }
+  &__description {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    color: #1f4d5e;
+    top: 120px;
+    text-align: center;
+    @include media-breakpoint-up(md) {
+      font-size: $font-size-base*2;
+      top: 180px;
+    }
+  }
+}

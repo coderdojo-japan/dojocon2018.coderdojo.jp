@@ -1,0 +1,24 @@
+<svg id="グループ化_8" data-name="グループ化 8" xmlns="http://www.w3.org/2000/svg" viewBox="1759 1356 126 126">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1f4e5f;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fffdfe;
+      }
+
+      .cls-3 {
+        font-size: 24px;
+        font-family: YuGo-Bold, YuGothic;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <rect id="長方形_93" data-name="長方形 93" class="cls-1" width="126" height="126" rx="35" transform="translate(1759 1356)"/>
+  <rect id="長方形_83" data-name="長方形 83" class="cls-2" width="75.73" height="8.853" rx="4.426" transform="translate(1784.27 1376)"/>
+  <rect id="長方形_84" data-name="長方形 84" class="cls-2" width="75.73" height="8.853" rx="4.426" transform="translate(1784.27 1398.132)"/>
+  <rect id="長方形_85" data-name="長方形 85" class="cls-2" width="75.73" height="8.853" rx="4.426" transform="translate(1784.27 1420.265)"/>
+  <text id="MENU" class="cls-3" transform="translate(1784 1463.152)"><tspan x="0" y="0">MENU</tspan></text>
+</svg>

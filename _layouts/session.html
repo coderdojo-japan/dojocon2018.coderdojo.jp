@@ -1,0 +1,52 @@
+{% include header.html %}
+<article class="entry">
+  <div class="container">
+    <div class="row justify-content-md-center">
+      <div class="col-12 col-md-8">
+        <header class="entry__header">
+          <h2 class="entry__title">{{page.j-title}}</h2>
+          <p class="entry__time">[ {{page.time-schedule}} ]</p>
+        </header>
+        <div class="entry__content">
+          {{content}}
+        </div>
+      </div>
+      <div class="col-12 col-md-8">
+        <div class="speaker-info">
+          <div class="row justify-content-md-center">
+            {% if page.thumbnail %}
+            <div class="col-12 col-sm-6 col-lg-3"><img class="speaker-info__thumbnail rounded-circle"
+                                                       src="/img/{{page.thumbnail}}">
+              {% else %}
+              <div class="col-12 col-sm-6 col-lg-3"><img class="speaker-info__thumbnail rounded-circle"
+                                                         src="/img/{{page.thumbnail}}">
+                {% endif %}
+                <ul class="speaker-info__links list-inline text-center">
+                  {% if page.twitter %}
+                  <li class="list-inline-item"><a href="{{page.twitter}}" target="_blank"><i
+                          class="fab fa-twitter"></i></a></li>
+                  {% endif %}
+                  {% if page.facebook %}
+                  <li class="list-inline-item"><a href="{{page.facebook}}" target="_blank"><i
+                          class="fab fa-facebook-f"></i></a></li>
+                  {% endif %}
+                  {% if page.url-link %}
+                  <li class="list-inline-item"><a href="{{page.url-link}}" target="_blank"><i
+                          class="fas fa-laptop"></i></a></li>
+                  {% endif %}
+                </ul>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-9">
+                <h4 class="speaker-info__name">{{page.speaker-name}}</h4>
+                <p class="speaker-info__description">{{page.position}}</p>
+                <div class="speaker-info__content">
+                  {{page.speaker-info}}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</article>
+{% include footer.html %}
