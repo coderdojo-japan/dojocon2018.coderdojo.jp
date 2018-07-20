@@ -1,8 +1,6 @@
 GEM
   remote: https://rubygems.org/
   specs:
-<<<<<<< HEAD
-=======
     activesupport (4.2.10)
       i18n (~> 0.7)
       minitest (~> 5.1)
@@ -239,16 +237,12 @@ GEM
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
     unicode-display_width (1.4.0)
->>>>>>> 5aaa56f89dd88de953a23c5bff54c902c5f201c1
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-<<<<<<< HEAD
-=======
   github-pages
->>>>>>> 5aaa56f89dd88de953a23c5bff54c902c5f201c1
 
 BUNDLED WITH
-   1.16.1
+   1.16.2
