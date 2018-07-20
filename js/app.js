@@ -3,8 +3,12 @@ $('#gnav__toggle').click(function () {
 })
 
 $('#gnav .gnav_item').click(function () {
-    $("#gnav__inner").slideToggle();
-})
+    var w = $(window).width();
+    var x = 768;
+    if (w <= x) {
+        $("#gnav__inner").slideToggle();
+    }
+});
 
 $(function() {
   var $win = $(window),
