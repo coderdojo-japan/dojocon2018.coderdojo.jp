@@ -1,0 +1,34 @@
+---
+title: News
+j-title : DojoCon Japan 2018ニュースの一覧
+description: DojoCon Japan 2018におけるニュースの一覧
+layout: archive
+---
+
+<section id="news">
+  <div class="container">
+    <div class="row post-list">
+      {% for news in site.news %}
+      {% if news.layout == "archive" %}
+      {% else %}
+      <div class="col-6">
+        <article class="post-list__item">
+          <div class="post-list__thumbnail">
+            <a href="{%if news.direct-link %}{{ site.url }}/{{ news.direct-link }}{% else %}{{ site.url }}{{ news.url }}{% endif %}"><img
+                    src="/img/{% if news.thumbnail %}{{ news.thumbnail }}{% else %}dummy-img.png{% endif %}"
+                    alt="{{news.j-title}}の画像"></a>
+          </div>
+          <div class="post-list__content">
+            <h3 class="post-list__title">{{ news.j-title }}</h3>
+            <!--p.post-list__time-->
+            <p class="post-list__speaker">{{ news.speaker-name }}</p>
+          </div>
+          <div class="post-list__more"><a class="btn btn__green btn__xl" href="{{ site.url }}{{ news.url }}"
+                                          role="button">more</a></div>
+        </article>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
