@@ -10,3 +10,5 @@
  collections:
    session:
      output: true
+   news:
+     output: true

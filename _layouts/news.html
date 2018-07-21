@@ -1,0 +1,21 @@
+{% include header.html %}
+<article class="entry mb-5">
+  <div class="container">
+    <div class="row justify-content-md-center">
+      <div class="col-12 col-md-8">
+        <header class="entry__header">
+          <h2 class="entry__title">{{page.j-title}}</h2>
+        </header>
+        <div class="entry__content">
+          {{content}}
+        </div>
+        <hr>
+        <p class="text-right">{{page.update}}</p>
+      </div>
+    </div>
+  </div>
+</article>
+<aside class="text-center mt-5">
+  <a class="btn btn__green btn__xl" href="/news/" role="button">News一覧へ</a>
+</aside>
+{% include footer.html %}
