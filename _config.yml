@@ -7,3 +7,6 @@
  jailed: false
  theme: jekyll-theme-primer
  gfm_quirks: paragraph_end
+ collections:
+   session:
+     output: true

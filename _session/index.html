@@ -1,0 +1,31 @@
+---
+title: Session
+j-title : DojoCon Japan 2018
+description: DojoCon Japanは日本のCoderDojo関係者（見守る大人、学ぶ子供）とその活動に賛同・協賛する人が全国各地から集まる大きなイベントです。
+layout: archive
+---
+
+<section id="session">
+  <div class="container">
+    <div class="row post-list">
+      {% for session in site.session %}
+        {% if session.layout == "archive" %}
+        {% else %}
+          <div class="col-6 col-md-3">
+            <article class="post-list__item">
+              <div class="post-list__thumbnail"><a href="{{ site.url }}{{ session.url }}"><img
+                      src="/img/{{ session.thumbnail }}" alt="細谷 崇のキリッとした画像"></a></div>
+              <div class="post-list__content">
+                <h3 class="post-list__title">{{ session.j-title }}</h3>
+                <!--p.post-list__time-->
+                <p class="post-list__speaker">{{ session.speaker-name }}</p>
+              </div>
+              <div class="post-list__more"><a class="btn btn__green btn__xl" href="{{ site.url }}{{ session.url }}"
+                                              role="button">more</a></div>
+            </article>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
