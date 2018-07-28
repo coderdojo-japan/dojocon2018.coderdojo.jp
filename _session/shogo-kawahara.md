@@ -1,7 +1,7 @@
 ---
 title: Session
-j-title: 千葉県総武線沿線の取り組み
-description: 千葉県総武線沿線の取り組み [14:15-14:35] CoderDojo千葉の主宰および、NPO法人若葉まるまる部副理事。2013年の8月から、CoderDojoを開催し、ひょんなことから千葉県の総武線沿線にどんどん広がっていくDojo仲間たちと、その取組についてお話します。
+j-title: CoderDojo千葉県総武線沿線の取り組み
+description: CoderDojo千葉県総武線沿線の取り組み [14:15-14:35] CoderDojo千葉の主宰および、NPO法人若葉まるまる部副理事。2013年の8月から、CoderDojoを開催し、ひょんなことから千葉県の総武線沿線にどんどん広がっていくDojo仲間たちと、その取組についてお話します。
 thumbnail: kawahara.jpg
 speaker-name: 川原 翔吾 (かわはら しょうご)
 time-schedule: 14:15-14:35
