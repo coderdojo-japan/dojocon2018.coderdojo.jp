@@ -3,7 +3,7 @@ title: Session
 j-title: "CoderDojoひばりヶ丘その記録-子供達は何を学んでいるのか"
 description: "CoderDojoひばりヶ丘その記録-子供達は何を学んでいるのか [13:50-14:10] 2012年より活動しているCoderDojoひばりヶ丘で、プログラミングを通して子供達は何を学んでいるのか、6年間の記録から厳選エピソードをお届け。"
 thumbnail: niizuma.jpg
-speaker-name : 新妻 正夫（にいずま まさお）
+speaker-name : 新妻 正夫（にいづま まさお）
 time-schedule: 13:50-14:10
 position: CoderDojoひばりヶ丘 主催
 speaker-info: "
