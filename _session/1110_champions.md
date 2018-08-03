@@ -13,7 +13,7 @@ speakers:
 近隣ドージョーのメンターの方々の協力のもと「でかドージョー」からスタート。以降は地域の方々の協力を得ながら運営中。
 "
     thumbnail: ishiguro.jpg
-    facebook: https://m.facebook.com/CoderDojoYokoze/
+    facebook: https://www.facebook.com/CoderDojoYokoze/
   - speaker-name: 長屋 順子（ながや じゅんこ）
     position: CoderDojo三島/沼津 チャンピオン, システム開発J&K 代表（個人事業主）
     speaker-info: "
