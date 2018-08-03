@@ -4,7 +4,7 @@ j-title: "Guardians Discussion - 保護者ディスカッション"
 description: "Guardians Discussion [14:40-15:10]"
 time-schedule: 14:40-15:10
 thumbnail: guardians.jpg
-speaker-name: '盛岡 (もりおか) / 大島 (おおしま) / 田島 (たじま)'
+speaker-name: '盛岡 (もりおか) / 田島 (たじま) / 大島 (おおしま)'
 speakers:
   - speaker-name: 森岡 宏之 (もりおか ひろゆき)
     position: CoderDojo 調布 メンター
@@ -16,6 +16,17 @@ speakers:
 "
     thumbnail: morioka.jpg
     facebook: https://www.facebook.com/hiroyuki.morioka.12
+  - speaker-name: 田島 諭 (たじま さとし)
+    position: CoderDojo Hanno チャンピオン
+    speaker-info: "
+昭和50年生まれ2児の父。文系学部卒、製造業、品質保証業務担当という、まったくもってプログラミングとは関係のない経歴の持ち主。
+業務改善の必要に駆られ、Google先生を頼りに覚えたプログラミングにはまり、フリーソフトの作成/公開なども。
+CoderDojo Hannoには2015年の初回開催より参加。2016年よりチャンピオンを引き継ぐことに。
+自分が、「お～すげぇ～」と感動したプログラミングの楽しさを子ども達と共有したいと、試行錯誤しています。<br><br>
+好きな野菜はネギです。冷蔵庫にストックが無いと不安になります
+"
+    thumbnail: tajima.jpg
+    facebook: https://www.facebook.com/satoshi.tajima05 
   - speaker-name: 大島 教雄 (おおしま のりお)
     position: "CoderDojo西新宿@JustSystems チャンピオン<br>
 株式会社ジャストシステム 開発エンジニア"
@@ -28,16 +39,5 @@ CoderDojoさいたまに保護者として参加、仕事柄プログラミン�
 "
     thumbnail: oshima.jpg
     facebook: https://www.facebook.com/n.oosima
-  - speaker-name: 田島 諭 (たじま さとし)
-    position: CoderDojo Hanno チャンピオン
-    speaker-info: "
-昭和50年生まれ2児の父。文系学部卒、製造業、品質保証業務担当という、まったくもってプログラミングとは関係のない経歴の持ち主。
-業務改善の必要に駆られ、Google先生を頼りに覚えたプログラミングにはまり、フリーソフトの作成/公開なども。
-CoderDojo Hannoには2015年の初回開催より参加。2016年よりチャンピオンを引き継ぐことに。
-自分が、「お～すげぇ～」と感動したプログラミングの楽しさを子ども達と共有したいと、試行錯誤しています。<br><br>
-好きな野菜はネギです。冷蔵庫にストックが無いと不安になります
-"
-    thumbnail: tajima.jpg
-    facebook: https://www.facebook.com/satoshi.tajima05 
 layout: discussion
 ---
