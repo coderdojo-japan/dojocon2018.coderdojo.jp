@@ -1,8 +1,10 @@
 ---
-title: Discussion
-j-title: "Champions Discussion"
+title: Session
+j-title: "Champions Discussion - 道場主ディスカッション"
 description: "Champions Discussion [10:10-10:40]"
 time-schedule: 10:10-10:40
+speaker-name: '石黒(いしぐろ) / 長屋(ながや) / 渡辺(わたなべ)'
+thumbnail: champions-d.jpg
 speakers:
   - speaker-name: 石黒 夢積（いしぐろ むつみ）
     position: 横瀬町地域おこし協力隊
@@ -30,8 +32,3 @@ speakers:
     thumbnail: watanabe.jpg
 layout: discussion
 ---
-
-ディスカッションの内容を熱く語る
-ディスカッションの内容を熱く語る
-ディスカッションの内容を熱く語る
-ディスカッションの内容を熱く語る
