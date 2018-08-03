@@ -10,8 +10,7 @@ speaker-info: "
 サイボウズ公認kintoneエバンジェリスト、ペライチ公認埼玉県代表サポーター、コワーキング協同組合理事。<br>
 2012年よりCoderDojoひばりヶ丘を主催。56才のScratcherでもある。
 "
-twitter: https://www.facebook.com/mniizuma
+facebook : https://www.facebook.com/mniizuma
 layout: session
 ---
-<p>2012年より活動しているCoderDojoひばりヶ丘で、プログラミングを通して子供達は何を学んでいるのか、6年間の記録から厳選エピソードをお届け。</p>
 <p>6年間にわたる記録の中から、小学2年生の少女の4年間にわたる成長の過程を中心に、子供達がなんに気づき学んできたのか、紹介していきます。</p>
