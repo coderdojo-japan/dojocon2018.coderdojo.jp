@@ -1,8 +1,8 @@
 ---
 title: Session
 j-title: "Non-Programmers Talks - 非プログラマー トーク"
-description: "Non-Programmers Talks [13:15-10:45]"
-time-schedule: 13:15-10:45
+description: "Non-Programmers Talks [13:15-13:45]"
+time-schedule: 13:15-13:45
 thumbnail: non-programmers.jpg
 speaker-name: '小粥(おがい) / 金江(かなえ) / 篠原(しのはら)'
 speakers:
