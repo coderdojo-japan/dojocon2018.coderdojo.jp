@@ -4,7 +4,7 @@ j-title: "Guardians Discussion - 保護者ディスカッション"
 description: "Guardians Discussion [14:40-15:10]"
 time-schedule: 14:40-15:10
 thumbnail: guardians.jpg
-speaker-name: '盛岡 (もりおか) / 田島 (たじま) / 大島 (おおしま)'
+speaker-name: '森岡 (もりおか) / 田島 (たじま) / 大島 (おおしま)'
 speakers:
   - speaker-name: 森岡 宏之 (もりおか ひろゆき)
     position: CoderDojo 調布 メンター
