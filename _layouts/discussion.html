@@ -11,10 +11,15 @@
           {{content}}
         </div>
       </div>
+
+      {% for speaker in page.speakers %}
       <div class="col-12 col-md-8">
-        {% include speaker.html speaker=page %}
+      {% include speaker.html speaker=speaker %}
       </div>
+      {% endfor %}
     </div>
   </div>
+
+
 </article>
 {% include footer.html %}
