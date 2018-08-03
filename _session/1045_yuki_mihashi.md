@@ -13,4 +13,4 @@ twitter: https://twitter.com/yuki384love
 url-link: https://yuki384.github.io/
 layout: session
 ---
-はじめて海外のコンテストに出場した感想や、その後の話などをお話させていただきたいと思っております。
+2018年5月にアイルランドで開催された、世界各地からCoderDojoのニンジャが集まる作品展示イベント “CoolestProjects"に行ってきたので、はじめて海外のコンテストに出場した感想やその後の話などをお話させていただきたいと思っております。
