@@ -1,8 +1,8 @@
 ---
 title: Session
 j-title: "Champions Discussion - 道場主ディスカッション"
-description: "Champions Discussion [10:10-10:40]"
-time-schedule: 10:10-10:40
+description: "Champions Discussion [11:10-11:40]"
+time-schedule: 11:10-11:40
 speaker-name: '石黒(いしぐろ) / 長屋(ながや) / 渡辺(わたなべ)'
 thumbnail: champions-d.jpg
 speakers:
