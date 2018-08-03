@@ -1,0 +1,28 @@
+<div class="speaker-info">
+  <div class="row justify-content-md-center">
+    <div class="col-12 col-sm-6 col-lg-3"><img class="speaker-info__thumbnail rounded-circle"
+                                               src="/img/{{include.speaker.thumbnail}}">
+      <ul class="speaker-info__links list-inline text-center">
+        {% if include.speaker.twitter %}
+        <li class="list-inline-item"><a href="{{include.speaker.twitter}}" target="_blank"><i
+          class="fab fa-twitter"></i></a></li>
+        {% endif %}
+        {% if include.speaker.facebook %}
+        <li class="list-inline-item"><a href="{{include.speaker.facebook}}" target="_blank"><i
+          class="fab fa-facebook-f"></i></a></li>
+        {% endif %}
+        {% if include.speaker.url-link %}
+        <li class="list-inline-item"><a href="{{include.speaker.url-link}}" target="_blank"><i
+          class="fas fa-laptop"></i></a></li>
+        {% endif %}
+      </ul>
+    </div>
+    <div class="col-12 col-sm-6 col-lg-9">
+      <h4 class="speaker-info__name">{{include.speaker.speaker-name}}</h4>
+      <p class="speaker-info__description">{{include.speaker.position}}</p>
+      <div class="speaker-info__content">
+        {{include.speaker.speaker-info}}
+      </div>
+    </div>
+  </div>
+</div>

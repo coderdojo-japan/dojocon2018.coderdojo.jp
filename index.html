@@ -129,6 +129,30 @@ layout: default
   </div>
 </div>
 </section>
+<section id="discussion" class="discussion bg__green">
+  <div class="container">
+    <div class="row">
+      <div class="col-12"></div>
+    </div>
+    <h2 class="heading__01">DISCUSSION</h2>
+    <div class="row post-list">
+      {% for discussion in site.discussion %}
+      <div class="col-6 col-md-3">
+        <article class="post-list__item">
+          <div class="post-list__thumbnail"><a href="{{ site.url }}{{ discussion.url }}"><img
+                  src="img/{{ discussion.thumbnail }}" alt="{{discussion.speaker-name}}の画像"></a></div>
+          <div class="post-list__content">
+            <h3 class="post-list__title">{{ discussion.j-title }}</h3>
+            <p class="post-list__speaker">{{ session.speaker-name }}</p>
+          </div>
+          <div class="post-list__more"><a class="btn btn__white btn__xl" href="{{ site.url }}{{ discussion.url }}"
+                                          role="button">more</a></div>
+        </article>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
 <section class="workshop bg__green">
 <div class="container">
   <div class="row justify-content-md-center">
