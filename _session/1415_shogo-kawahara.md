@@ -12,18 +12,19 @@ speaker-info: "
 <p>地元サポーターの熱意から、同じく千葉市に<a href=\"http://chiba-rucy.com/chibaooclub/wakabaooclub/wakaba-programming\" target=\"_blank\">CoderDojo若葉みつわ台</a>の設立支援を行い、若葉みつわ台は千葉県総武線沿線にDojoを広げるためのハブとして機能しだす。</p>
 
 <p>自称旅人。海外に行くつもりはないのに、なぜか毎年海外に行くことになったり、仙台までテクノロジー縛りをして徒歩で歩いたりするのが趣味。</p>
-
-<p>このセッションでは、以下のことをお話します。</p>
-
-<ul>
-<li>CoderDojo千葉の立ち上げ</li>
-<li>CoderDojo千葉県連の ひろがり (ひろげかた) と、取り組み</li>
-<li>国際ロボット競技大会 <a href=\"https://www.firstinspires.org/\" target=\"_blank\">FIRST Robotics Compeition</a> 参加チームへの支援とチャレンジ</li>
-<li>NPO法人若葉まるまる部について</li>
-</ul>
 "
 twitter: https://twitter.com/ooharabucyou
 facebook: https://www.facebook.com/ooharabucyou
 url-link: https://hirai.bucyou.net/
 layout: session
 ---
+
+<p>このセッションでは、以下のことをお話します。</p>
+
+<ul>
+<li>CoderDojo千葉の立ち上げ</li>
+<li>CoderDojo千葉県連の ひろがり (ひろげかた) と、取り組み</li>
+<li>国際ロボット競技大会 <a href="https://www.firstinspires.org/" target="_blank">FIRST Robotics Compeition</a> 参加チームへの支援とチャレンジ</li>
+<li>NPO法人若葉まるまる部について</li>
+</ul>
+

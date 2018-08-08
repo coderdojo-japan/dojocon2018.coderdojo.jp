@@ -1,10 +1,10 @@
 ---
 title: Session
 j-title : 基調講演
-description: 基調講演 [11:00-12:00] CoderDojo西宮/梅田の主宰およびCoderDojo Japan理事。WordPressを使ったWEBサイトの制作および講師業を営む。サイボウズ株式会社公認 kintoneエバンジェリスト。基調講演では、日本初となるCoderDojoの全国会議 DojoCon Japan の開催に至った経緯と2年間の取り組みの紹介、実行委員長として国内各地および世界のDojo関係者との橋渡しを行い、更には世界に若者を送り出すなど、現在も精力的にコミュニティに貢献し続ける氏への想いなど、多岐にわたってお話しいただきます。
+description: 基調講演 [10:10-10:40] CoderDojo西宮/梅田の主宰およびCoderDojo Japan理事。WordPressを使ったWEBサイトの制作および講師業を営む。サイボウズ株式会社公認 kintoneエバンジェリスト。基調講演では、日本初となるCoderDojoの全国会議 DojoCon Japan の開催に至った経緯と2年間の取り組みの紹介、実行委員長として国内各地および世界のDojo関係者との橋渡しを行い、更には世界に若者を送り出すなど、現在も精力的にコミュニティに貢献し続ける氏への想いなど、多岐にわたってお話しいただきます。
 thumbnail : hosoya.jpg
 speaker-name : 細谷 崇（ほそや たかし）
-time-schedule : 11:00-12:00
+time-schedule : 10:10-10:40
 position : CoderDojo西宮 チャンピオン / CoderDojo梅田 チャンピオン / DojoCon Japan 2016 実行委員長 / DojoCon Japan 2017 実行委員長 / 一般社団法人CoderDojo Japan 設立時社員 / NPO法人のためのIT支援事務所 ht 代表 / サイボウズ株式会社公認 kintone エバンジェリスト
 speaker-info : "
 <p>2012年に関西でCoderDojo熊野（旧：串本）に続き2番目のCoderDojoを兵庫県西宮市で開始、翌年には2つ目のCoderDojoを大阪市北区ではじめ、毎月２回CoderDojoを開催（2018年から交互に毎月開催）。</p>
