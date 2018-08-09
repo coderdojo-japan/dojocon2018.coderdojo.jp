@@ -41,3 +41,9 @@ CoderDojoさいたまに保護者として参加、仕事柄プログラミン�
     facebook: https://www.facebook.com/n.oosima
 layout: discussion
 ---
+
+CoderDojo を作り上げる要素は、チャンピオン、メンター、ニンジャ、そして何より大事なのは
+CoderDojo と共にプログラミングを楽しむ保護者 (Guardians) の存在です。
+
+このディスカッションでは、CoderDojo に参加するニンジャの保護者にフォーカスを当て、
+話を聞いていきます。

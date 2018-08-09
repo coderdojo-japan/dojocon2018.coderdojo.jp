@@ -47,3 +47,8 @@ CoderDojo安曇野メンター（2017年5月～）
     url-link: http://www.ne.jp/asahi/azuminoict/hp/
 layout: discussion
 ---
+
+CoderDojo への支援の形は技術的なことだけに留まることはありません。
+ここでは、本業でプログラマー・技術者をやっていないCoderDojo支援者にフォーカスを当てて話を聞いてみます！
+
+「CoderDojo へ支援したいけど、技術的な知識が必要では？」と思っている、あなたにとって価値のあるトークになると思います。

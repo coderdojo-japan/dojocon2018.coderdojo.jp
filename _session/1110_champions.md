@@ -32,3 +32,6 @@ speakers:
     thumbnail: watanabe.jpg
 layout: discussion
 ---
+
+CoderDojo では、各Dojoの主催者のことをチャンピオン (a.k.a Champion, 道場主) と呼びます。
+ここでは、3つの CoderDojo のチャンピオンが集まり、運用や楽しみ方について聞いていきます。
