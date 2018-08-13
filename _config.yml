@@ -10,5 +10,7 @@
  collections:
    session:
      output: true
+   workshop:
+     output: true
    news:
      output: true

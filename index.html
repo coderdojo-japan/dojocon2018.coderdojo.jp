@@ -143,7 +143,22 @@ layout: default
   <div class="row justify-content-md-center">
     <div class="col-12 col-md-8">
       <h2 class="heading__01">WORK SHOP</h2>
-      <h3 class="heading__02">COMING SOON</h3>
+      <div class="row post-list">
+          {% for workshop in site.workshop %}
+            {% if workshop.layout == "archive" %}
+            {% else %}
+              <div class="col-6 col-md-3">
+                <article class="post-list__item">
+                  <div class="post-list__thumbnail"><a href="{{ site.url }}{{ workshop.url }}"><img src="img/{{ workshop.thumbnail }}" alt="{{ workshop.j-title }}のイメージ"></a></div>
+                  <div class="post-list__content">
+                    <h3 class="post-list__title">{{ workshop.j-title }}</h3>
+                    <p class="post-list__time">{{workshop.time-schedule}}</p>
+                  </div>
+                  <div class="post-list__more"><a class="btn btn__white btn__xl" href="{{ site.url }}{{ workshop.url }}" role="button">more</a></div></article>
+              </div>
+            {% endif %}
+          {% endfor %}
+      </div>
     </div>
   </div>
   <div class="row post-list mt-5">
