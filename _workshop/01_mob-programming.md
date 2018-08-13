@@ -4,7 +4,7 @@ j-title : モブプログラミングで体験する Scratch 3.0 + micro:bit 連
 description: モブプログラミングで、βリリースとなったばかりの Scratch 3.0 と小型マイコンボードの micro:bit との連携機能を体験するワークショップです。モブプログラミングとは、PCを操作する1人のドライバー役を順番に交代しながら、ナビゲーター役のそれ以外の全員がアドバイスをしたり、手順を教えたりして、みんなで助け合いながらタスクを進めていく開発手法です。前提とする知識は全く必要なし、PCの操作ができれば、どなたでもご参加いただけます。
 thumbnail : mobpro.png
 time-schedule: 
-area: 
+area-room: 
 layout: workshop
 ---
 
