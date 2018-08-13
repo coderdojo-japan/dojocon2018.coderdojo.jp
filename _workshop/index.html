@@ -1,0 +1,31 @@
+---
+title: Workshop
+j-title : DojoCon Japan 2018ワークショップ一覧
+description: DojoCon Japan 2018におけるワークショップの一覧
+layout: archive
+---
+
+<section id="workshop">
+  <div class="container">
+    <div class="row post-list">
+      {% for workshop in site.workshop %}
+        {% if workshop.layout == "archive" %}
+        {% else %}
+          <div class="col-6 col-md-3">
+            <article class="post-list__item">
+              <div class="post-list__thumbnail"><a href="{{ site.url }}{{ workshop.url }}"><img
+                      src="/img/{{ workshop.thumbnail }}" alt="{{workshop.speaker-name}}の写真"></a></div>
+              <div class="post-list__content">
+                <h3 class="post-list__title">{{ workshop.j-title }}</h3>
+                <p class="post-list__time">{{workshop.time-schedule}}</p>
+                <p class="post-list__speaker">{{ workshop.speaker-name }}</p>
+              </div>
+              <div class="post-list__more"><a class="btn btn__green btn__xl" href="{{ site.url }}{{ workshop.url }}"
+                                              role="button">more</a></div>
+            </article>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
