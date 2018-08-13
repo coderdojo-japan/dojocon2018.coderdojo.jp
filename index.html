@@ -138,11 +138,12 @@ layout: default
   </div>
 </div>
 </section>
-<section class="workshop bg__green">
+
+<section id="workshop" class="workshop bg__green">
 <div class="container">
   <div class="row justify-content-md-center">
     <div class="col-12 col-md-8">
-      <h2 class="heading__01">WORK SHOP</h2>
+      <h2 class="heading__01">WORKSHOP</h2>
       <div class="row post-list">
           {% for workshop in site.workshop %}
             {% if workshop.layout == "archive" %}
@@ -165,10 +166,14 @@ layout: default
   </div>
 </div>
 </section>
-<section id="sponsor" class="sponsor">
-<h2 class="heading__01 bgwh">SPONSOR</h2>
 
+<section id="sponsor" class="sponsor">
 <div class="container">
+  <div class="row justify-content-md-center">
+    <div class="col-12">
+      <h2 class="heading__01 bgwh">SPONSOR</h2>
+    </div>
+  </div>
 
   <h3 class="text-center">Gold</h3>
   <div class="row">
