@@ -5,11 +5,11 @@
       <div class="col-12 col-md-8">
         <header class="entry__header">
           <h2 class="entry__title">{{page.j-title}}</h2>
-	  {% if page.thumbnail %}
-	  <img src="/img/{{ page.thumbnail }}"/>
-	  {% endif %}
 	  {% if page.time-schedule %}
 	  <p class="entry__time">[ {{page.time-schedule}} ]</p>
+	  {% endif %}
+	  {% if page.thumbnail %}
+	  <img src="/img/{{ page.thumbnail }}"/>
 	  {% endif %}
         </header>
         <div class="entry__content">
