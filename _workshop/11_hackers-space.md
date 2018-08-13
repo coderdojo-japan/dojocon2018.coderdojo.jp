@@ -4,6 +4,7 @@ j-title : Hacker's Space
 description: 持ち込んだノートPCで創作したり共有する際に、お使いいただけるスペースです。無線LANと電源はありますが、ノートPCの用意はないので各自で持ち込みをお願いします。事前申し込みは不要です。席数が限られておりますので、なるべくテーブルを共有しながらご利用ください。
 thumbnail : hackers-space.png
 time-schedule: 10:40-16:30
+area-room: 
 layout: workshop
 ---
 
