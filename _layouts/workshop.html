@@ -1,0 +1,17 @@
+{% include header.html %}
+<article class="entry mb-5">
+  <div class="container">
+    <div class="row justify-content-md-center">
+      <div class="col-12 col-md-8">
+        <header class="entry__header">
+          <h2 class="entry__title">{{page.j-title}}</h2>
+          <p class="entry__time">[ {{page.time-schedule}} ]</p>
+        </header>
+        <div class="entry__content">
+          {{content}}
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+{% include footer.html %}
