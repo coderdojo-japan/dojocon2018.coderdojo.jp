@@ -2,7 +2,7 @@
 title: Workshop
 j-title : IchigoJamでプログラミング体験！
 description: IchigoJamを使ってオリジナルゲームをプログラミングしよう！
-thumbnail : IchigoJam.jpg
+thumbnail : IchigoJam.png
 time-schedule: 13:00-14:00 / 14:20-15:20 / 15:40-16:40
 area-room: HELSINKI
 layout: workshop
