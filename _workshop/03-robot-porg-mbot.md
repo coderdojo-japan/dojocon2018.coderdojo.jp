@@ -2,7 +2,7 @@
 title: Workshop
 j-title : ロボットプログラミング　mBotの巻
 description: ｍBlockアプリ（Scratchベース）を使って、mBotを動かしてみませんか？最初に、簡単な説明を行った後は、自由にプログラミングしてみてください。どうしていいかわからない。というときは、サンプルプログラムもいくつか用意してますので、お気軽にどうぞ！
-thumbnail : ｍBot4.jpg
+thumbnail : mBot4.jpg
 time-schedule: 10:40-11:40
 layout: workshop
 ---
