@@ -1,6 +1,6 @@
 ---
 title: Workshop
-j-title : ScratchとMakeyMakeyで楽器を演奏しよう【ハンズオン】
+j-title : ScratchとMakeyMakeyで楽器を演奏しよう
 description: 8月4日に開催された「こどものミライ サマースクール」で実施したScratchとMakeyMakeyを使った楽器作りと演奏会の事例を写真とテキストで紹介します。授業用に作成したScratchとMakeyMakeyを組み合わせた楽器を演奏していただくこともできます。1回目 (10:40-12:00)、2回目 (13:30-15:00) の最後の15分で「演奏会デモンストレーション」を行います。
 thumbnail : makeymakey-1.jpg
 time-schedule: 10:40-12:00 / 13:30-15:00 / 15:30-16:40
