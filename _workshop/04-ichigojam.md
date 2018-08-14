@@ -7,7 +7,7 @@ time-schedule: 13:00-14:00 / 14:20-15:20 / 15:40-16:40
 area-room: HELSINKI
 layout: workshop
 ---
-chigoJamを使ってオリジナルゲームをプログラミングしよう！
+IchigoJamを使ってオリジナルゲームをプログラミングしよう！
 
 ### 会場
 HELSINKI
