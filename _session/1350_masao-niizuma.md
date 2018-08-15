@@ -5,7 +5,7 @@ description: "CoderDojoひばりヶ丘その記録-子供達は何を学んで�
 thumbnail: niizuma.jpg
 speaker-name : 新妻 正夫（にいづま まさお）
 time-schedule: 13:50-14:10
-position: CoderDojoひばりヶ丘 主催
+position: CoderDojoひばりヶ丘 主宰
 speaker-info: "
 サイボウズ公認kintoneエバンジェリスト、ペライチ公認埼玉県代表サポーター、コワーキング協同組合理事。<br>
 2012年よりCoderDojoひばりヶ丘を主催。56才のScratcherでもある。
