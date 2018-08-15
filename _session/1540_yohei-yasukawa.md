@@ -5,12 +5,12 @@ description: CoderDojo Japan の活動実績を報告します
 thumbnail: coderdojo-japan.png
 speaker-name: 一般社団法人 CoderDojo Japan
 time-schedule: 15:40-15:50
-position: 安川 要平 - 代表理事
+position: 代表理事 安川 要平
 speaker-info: "
 
 <p>2012年に<a href='https://osscafe.business.site/'>下北沢オープンソースCafe</a>のメンバーと共に<a href='https://www.facebook.com/note.php?note_id=321408997945053&id=204862942932993'>アジア初の CoderDojo</a> を立ち上げ、当時から現在に到るまで CoderDojo コミュニティをより楽しくしていくためのコミットを続けています。</p>
 
-<p>一般社団法人 CoderDojo Japan<br>
+<p>CoderDojo Japan<br>
 <a href='https://coderdojo.jp/'>https://coderdojo.jp/</a>
 </p>
 "
