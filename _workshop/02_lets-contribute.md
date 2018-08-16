@@ -26,8 +26,15 @@ TANEGASHIMA
 ### 定員
 10名
 
+### スピーカー
+石川 博之
+- CoderDojo光 チャンピオン
+- 株式会社ステラリンク 代表取締役
+- 特定非営利活動法人シニアネット光 監事
+
 ### 持ち物
 特になし
 
 ### 申し込み方法
-peatixにて申し込み (準備中)
+peatixにて申し込み<br>
+<a href="http://ptix.at/CeYiEL" role="button">申込フォーム</a>
