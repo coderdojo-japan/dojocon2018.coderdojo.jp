@@ -20,7 +20,7 @@ url-link: https://coderdojo.jp
 layout: session
 ---
 
-2016年の DojoCon Japan で CoderDojo の公式日本支部「一般社団法人 CoderDojo Japan」が発足し、約１年が経ちました。
+2016年の DojoCon Japan で CoderDojo の公式日本支部「一般社団法人 CoderDojo Japan」が発足し、約2年が経ちました。
 
 [![一般社団法人 CoderDojo Japan 調印式](/img/2016-09-04-thumbnail.jpg)](http://dojocon2016.coderdojo.jp/2016/09/04/coderdojo-japan-was-established.html)
 
