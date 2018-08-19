@@ -8,7 +8,8 @@ layout: archive
 <section id="news">
   <div class="container">
     <div class="row post-list">
-      {% for news in site.news %}
+      {% assign news_items = site.news | sort: 'date' | reverse %}
+      {% for news in news_items %}
       {% if news.layout == "archive" %}
       {% else %}
       <div class="col-6">

@@ -58,7 +58,8 @@ layout: default
 </div>
 <div class="container">
   <div class="row post-list">
-    {% for news in site.news limit:4 %}
+    {% assign news_items = site.news | sort: 'date' | reverse %}
+    {% for news in news_items limit:6 %}
     {% if news.layout == "archive" %}
     {% else %}
     <div class="col-6">
