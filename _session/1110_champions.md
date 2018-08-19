@@ -15,7 +15,7 @@ speakers:
     thumbnail: ishiguro.jpg
     facebook: https://www.facebook.com/CoderDojoYokoze/
   - speaker-name: 長屋 順子（ながや じゅんこ）
-    position: CoderDojo三島/沼津 チャンピオン, システム開発J&K 代表（個人事業主）
+    position: "CoderDojo三島/沼津 チャンピオン, システム開発J&amp;K 代表（個人事業主）"
     speaker-info: "
 8年の専業主婦生活を経て、3人目の子供が幼稚園に入園したのを機に、フリーランスのSEとして仕事を再開。<br>
 2013年よりボランティアで「子どもプログラミングワークショップ」を開催し、2018年5月にCoderDojo三島・沼津を立ち上げる。

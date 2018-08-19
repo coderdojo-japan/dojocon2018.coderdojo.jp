@@ -1,7 +1,7 @@
 ---
 title: Session
 j-title: "アイルランドで開催されたCoolestProjectsの様子"
-description: "アイルランドで開催されたCoolestProjectsの様子 [10:45-11:05] 2018年5月にアイルランドで開催された、世界各地からCoderDojoのニンジャが集まる作品展示イベント \"CoolestProjects\"に行ってきたので、このセッションではその様子と体験をお話したいと思っております。"
+description: "アイルランドで開催されたCoolestProjectsの様子 [10:45-11:05] 2018年5月にアイルランドで開催された、世界各地からCoderDojoのニンジャが集まる作品展示イベント  CoolestProjects に行ってきたので、このセッションではその様子と体験をお話したいと思っております。"
 thumbnail: mihashi.jpg
 speaker-name : 三橋 優希(みはし ゆうき)
 time-schedule: 10:45-11:05
@@ -13,4 +13,4 @@ twitter: https://twitter.com/yuki384love
 url-link: https://yuki384.github.io/
 layout: session
 ---
-2018年5月にアイルランドで開催された、世界各地からCoderDojoのニンジャが集まる作品展示イベント “[CoolestProjects](http://coolestprojects.org/)"に行ってきたので、はじめて海外のコンテストに出場した感想やその後の話などをお話させていただきたいと思っております。
+2018年5月にアイルランドで開催された、世界各地からCoderDojoのニンジャが集まる作品展示イベント [CoolestProjects](http://coolestprojects.org/)に行ってきたので、はじめて海外のコンテストに出場した感想やその後の話などをお話させていただきたいと思っております。
