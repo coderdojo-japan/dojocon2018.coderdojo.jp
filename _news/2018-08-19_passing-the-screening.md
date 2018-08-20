@@ -3,16 +3,21 @@ title: News
 j-title : 一次審査を通過した５つの作品のまとめ
 description: 『Go Global! DojoCon Japan 2018プログラミングコンテスト』に応募いただいた作品の中より一次審査を通過した作品をご紹介します。
 update: 2018.08.19
-thumbnail: goglobal_contest.jpg
+thumbnail: goglobal_banner.jpg
 layout: news
 ---
 
 多くの応募をいただきました。『Go Global! DojoCon Japan 2018プログラミングコンテスト』ですが、ここで一次審査を通過した５つの作品をご紹介します。
 
+<div class="mt-5"></div>
+
 ---
+
 ##  RPG Battle Crash 5.5
 
-作品URL: [https://scratch.mit.edu/projects/196356522/](https://scratch.mit.edu/projects/196356522/)
+<div class="mt-3"></div>
+
+![RPG Battle Crash 5.5](/img/battle-crash.png)
 
 #### 作品概要
 
@@ -26,11 +31,17 @@ layout: news
 - 桑原 佳哉 (11) 
 - CoderDojo札幌東
 
+
+
+<div class="mt-5"></div>
+
 ---
 
 ## キューブ アドベンチャー
 
-作品URL : [https://scratch.mit.edu/projects/237053051/](https://scratch.mit.edu/projects/237053051/)
+<div class="mt-3"></div>
+
+![キューブ アドベンチャー](/img/cube-adventure.png)
 
 #### 作品概要
 
@@ -54,11 +65,17 @@ layout: news
 - 宇田 虎ノ介(13)
 - CoderDojo市川真間
 
+
+<div class="mt-5"></div>
+
 ---
 
 ## ひろがるColorful ring
 
-作品URL : [https://scratch.mit.edu/projects/188277457/](https://scratch.mit.edu/projects/188277457/)
+<div class="mt-3"></div>
+
+![ひろがるColorful ring](/img/color-ring.png)
+
 
 #### 作品概要
 
@@ -91,13 +108,16 @@ layout: news
 - 大野 晃太郎(12)
 - CoderDojo高槻
 
+
+<div class="mt-5"></div>
+
 ---
 
 ## 広げるの巨人
 
-![広げる巨人のイメージ](/img/kyojin.png)
+<div class="mt-3"></div>
 
-作品URL : [http://xfs.jp/YZMNM](http://xfs.jp/YZMNM) / password:dojo
+![広げる巨人のイメージ](/img/kyojin.png)
 
 #### 作品概要
 
@@ -109,30 +129,25 @@ layout: news
 - 内田 朋樹(11)
 - CoderDojo倉敷と岡山岡南
 
+
+
+<div class="mt-5"></div>
+
 ---
 
-
 ## かき氷
+
+<div class="mt-3"></div>
+
+![かき氷](/img/kakigori.jpg)
 
 #### 作品概要
 
 micro:bitとscratch3.0を組み合わせたかき氷機です
 Scratch3.0のファイルになります。 
 
-作品url : 
-[https://www.dropbox.com/s/mial37jcjm2kea9/kakigoori.sb3?dl=0](https://www.dropbox.com/s/mial37jcjm2kea9/kakigoori.sb3?dl=0)  
-[https://drive.google.com/file/d/1DP8iB4zk5lXGdDZtnN9AXINcnR8aBX2z/view?usp=sharing](https://drive.google.com/file/d/1DP8iB4zk5lXGdDZtnN9AXINcnR8aBX2z/view?usp=sharing)
-
-
 
 #### 作者プロフィール
 
 - 高松 芽生(11)
 - CoderDojo守谷
-
-
-
-
-
-
-
