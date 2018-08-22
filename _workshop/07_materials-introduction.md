@@ -14,9 +14,7 @@ layout: workshop
 - Orange 4
 - microbit
 - Hello Ruby
-
-#### アーテックロボ
-
+- アーテックロボ
 - Osmo Coding
 - Robot Turtles
 - Alice 3
